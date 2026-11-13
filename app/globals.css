@@ -1,0 +1,47 @@
+@import "tailwindcss";
+
+@theme inline {
+  --font-sticker: var(--font-lilita), "Arial Black", sans-serif;
+  --font-serif: var(--font-fraunces), Georgia, serif;
+  --font-mono: var(--font-dm-mono), ui-monospace, monospace;
+  --color-cream: #f4efe4;
+  --color-ink: #141414;
+  --color-stage: #0c0c0f;
+  --color-pink: #ff8eb8;
+  --color-sky: #7ec8ff;
+  --color-gold: #ffe14a;
+  --color-mint: #b6f27c;
+  --color-coral: #ff7a62;
+}
+
+html,
+body {
+  min-height: 100%;
+}
+
+body {
+  background: repeating-linear-gradient(
+    -45deg,
+    #2c2678 0 12px,
+    #6a5cff 12px 24px
+  );
+  color: var(--color-cream);
+  font-family: var(--font-mono), ui-monospace, monospace;
+}
+
+::selection {
+  background: #ff8eb8;
+  color: #141414;
+}
+
+.sticker-letter {
+  -webkit-text-stroke: clamp(4px, 0.075em, 10px);
+  paint-order: stroke fill;
+  filter: drop-shadow(0.045em 0.055em 0 #000);
+}
+
+button:focus-visible,
+a:focus-visible {
+  outline: 2px solid #ffe14a;
+  outline-offset: 3px;
+}

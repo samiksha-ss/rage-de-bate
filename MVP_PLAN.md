@@ -596,7 +596,7 @@ Room full, or lobby cancelled: a single message and a link home. No spectator vi
 
 **Visual direction**
 
-Dark, dense, slightly severe. Background near `#1c1a17`, panels `#262421`, text `#eee`, active clock `#f7c631` or a sharp green, flag-danger `#e85d4c`. One display face for the clocks (tabular nums). The motion itself is the only loud type on the screen. No purple gradient, no card-grid marketing layout on the match page.
+Black stage inside a periwinkle barber-pole frame, film-sprocket bars on the top and bottom. Home spells RAGE in a few of those holes. The wordmark is chunky sticker letters; "debate" and the motion are a high-contrast serif. A polaroid, a sticky-note rating, and one bang sticker sit in the margins. The match table stays sparse: opponent on top, you on the bottom, the motion as the only large type. Active clock is gold (`#ffe14a`), flag-danger is coral (`#ff7a62`), inactive clocks are dim, digits are tabular. No purple gradient fill, no card-grid marketing layout on the match page.
 
 ### 4.4 Hook behavior checklist
 
